@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Pet - Veterinaria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>🐾 Happy Pet</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="clientes.html">Clientes</a>
+    <a href="mascotas.html">Mascotas</a>
+    <a href="citas.html">Citas</a>
+    <a href="historial.html">Historial</a>
+    <a href="facturas.html">Facturas</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero-home">
+    <div class="hero-text">
+      <h2>Sistema de gestión veterinaria</h2>
+      <p>Porque tambien son parte de la familia</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="clientes.html">Registrar cliente</a>
+        <a class="btn btn-success" href="citas.html">Agendar cita</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="img/Imagen.png" alt="Happy Pet Veterinaria" onerror="this.style.display='none'" />
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="welcome-card">
+      <h3>¿Quiénes somos?</h3>
+      <p>Happy Pet es una clínica veterinaria orientada al bienestar animal. Este sistema permite digitalizar procesos básicos de atención, evitando registros manuales dispersos y facilitando el control de información.</p>
+    </div>
+  </section>
+
+  <section class="container services">
+    <div class="card"><h3>👤 Clientes</h3><p>CRUD completo para registrar, consultar, editar y eliminar clientes.</p></div>
+    <div class="card"><h3>🐶 Mascotas</h3><p>Registro de mascotas asociado a un cliente existente.</p></div>
+    <div class="card"><h3>📅 Citas</h3><p>Agenda veterinaria con fecha, hora, mascota y motivo.</p></div>
+    <div class="card"><h3>🩺 Historial clínico</h3><p>Registro de diagnóstico y tratamiento por mascota.</p></div>
+    <div class="card"><h3>🧾 Facturas</h3><p>Control de facturación asociada a clientes.</p></div>
+    <div class="card"><h3>🔒 API estable</h3><p>La conexión se configura por variables de entorno y no queda amarrada a un equipo específico.</p></div>
+  </section>
+</main>
+<footer>Happy Pet 🐾 Sistema académico de gestión veterinaria</footer>
+<script src="js/api.js"></script>
+</body>
+</html>

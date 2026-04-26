@@ -1,0 +1,17 @@
+{
+  "name": "happy-pet-veterinaria-profesional",
+  "version": "2.0.0",
+  "description": "Sistema web cliente-servidor para clínica veterinaria Happy Pet con Node.js, Express y SQL Server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "msnodesqlv8": "^5.1.9",
+    "mssql": "^12.5.0"
+  }
+}
